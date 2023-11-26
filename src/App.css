@@ -1,0 +1,278 @@
+ul,
+li,
+h3,
+span,
+div {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+/* header style */
+
+header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5px;
+  position: fixed;
+  z-index: 1000;
+  background: #DEEBEC;
+  overflow: hidden;
+}
+
+
+.site-header {
+  width: 100%;
+  max-width: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px;
+
+}
+
+.nav-styls a {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  align-items: center;
+  line-height: 13px;
+  font-weight: 600;
+  font-size: 8px;
+  line-height: 13px;
+
+}
+
+.nav-styls a:hover {
+  color: #B19149;
+}
+
+.nav-styls a svg:hover {
+  fill: #B19149;
+}
+
+/*end header style */
+
+.container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 5px;
+  padding-top: 5px;
+  padding-bottom: 200px;
+}
+
+/* card style */
+.section-position{
+  position: absolute;
+  top: 56px !important;
+}
+.section-card {
+  background-color: #BED9DD;
+  width: 100%;
+  overflow: auto;
+  height: 90vh;
+  scrollbar-color: #005354 #BED9DD;
+  scrollbar-width: 13px;
+  /* scrollbar-width: thin; */
+}
+
+/* Google Chrome */
+::-webkit-scrollbar {
+  width: 13px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #005354;
+  border-radius: 2px;
+}
+
+.card {
+  background-color: #DEEBEC;
+  padding: 8px 8px 0 8px;
+  max-width: 471px;
+  min-height: 427px;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding-right: 4px;
+}
+
+.header-details {
+  width: 100%;
+}
+
+.card-title {
+  color: #B19149;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.card-text {
+  font-size: 10px;
+  font-weight: 600;
+  margin-top: 6px;
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.progress {
+  height: 4px;
+  width: 100%;
+  background-color: white;
+  border-radius: 2.5px 2.5px 0 0;
+}
+
+.progress-bar {
+  height: 4px;
+  background: linear-gradient(to right, #B6D2D7, #005354);
+  border-radius: 2.5px 2.5px 0 0;
+}
+
+.list-group {
+  width: 100%;
+  border-bottom: 0.5px solid #BED9DD;
+}
+
+.list-group span {
+  font-size: 14px;
+  font-weight: 600;
+  border-collapse: collapse;
+}
+
+.discrip{
+  font-size: 14px;
+  font-weight: 600;
+  padding: 6px;
+  height: 100%;
+}
+
+.card-img-top {
+  height: 20px;
+  width: 20px;
+  margin-right: 4px;
+}
+
+.list-group-titel {
+  display: flex !important;
+  flex-direction: row;
+  align-items: center;
+}
+
+.list-group-td {
+  border-bottom: 0.5px solid #BED9DD;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 6px;
+}
+
+.list-group tr {
+  width: 100%;
+  display: flex;
+}
+
+.border-item {
+  height: 30px;
+  width: 1.5px;
+  background-color: #BED9DD;
+}
+
+.list-group-td-last {
+
+  display: flex;
+  justify-content: space-between;
+  padding: 6px;
+}
+.double-height {
+  grid-row: span 2;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 600;
+  background-color: initial;
+  border: none;
+  color: #005354;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+}
+.btn-border{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-top: 0.5px solid #BED9DD;
+  display: flex;
+  align-items: end;
+}
+/*end card style */
+@media only screen and (max-width: 800px) {
+  .container {
+    grid-template-columns: auto;
+    width: 100%;
+  }
+
+  .card {
+    max-width: 100%;
+  }
+}
+
+@media only screen and (min-width: 800px) {
+  .container {
+    grid-template-columns: auto auto;
+    width: 100%;
+  }
+
+  .card {
+    max-width: 100%;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .container {
+    grid-template-columns: auto auto auto;
+    width: 100%;
+  }
+
+  .card {
+    max-width: 100%;
+  }
+  .section-card {
+    background-color: #BED9DD;
+    position: absolute;
+    top: 56px !important;
+    width: 100%;
+    overflow: auto;
+    height: 100vh;
+    scrollbar-color: #005354 #BED9DD;
+    scrollbar-width: 13px;
+    /* scrollbar-width: thin; */
+  }
+}
+
+@media only screen and (min-width: 1755px) {
+  .container {
+    grid-template-columns: auto auto auto auto;
+    width: 100%;
+  }
+
+  .card {
+    max-width: 100%;
+  }
+}
