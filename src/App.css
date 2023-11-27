@@ -1,20 +1,28 @@
 ul,
 li,
-h3,
+h1,
+h2,
+h3,h4,
+h5
 span,
-div {
+p,
+button,
+div ,
+a,header{
   padding: 0;
   margin: 0;
   list-style-type: none;
+box-sizing: border-box;
 }
-
+a{
+  cursor: pointer;
+}
 /* header style */
 
 header {
   width: 100%;
   display: flex;
   justify-content: center;
-  margin-bottom: 5px;
   position: fixed;
   z-index: 1000;
   background: #DEEBEC;
@@ -41,14 +49,17 @@ header {
   font-weight: 600;
   font-size: 8px;
   line-height: 13px;
+  cursor: pointer;
+  padding: 4px;
 
 }
-
-.nav-styls a:hover {
+.nav-styls a:hover svg {
+  fill: #B19149;
   color: #B19149;
-}
+} 
 
-.nav-styls a svg:hover {
+.nav-styls:hover {
+  color: #B19149;
   fill: #B19149;
 }
 
@@ -60,38 +71,38 @@ header {
   grid-template-columns: auto auto auto;
   grid-gap: 5px;
   padding-top: 5px;
-  padding-bottom: 200px;
+  padding-bottom: 50px;
+  position: absolute;
+  top: 61px !important;
+}
+/* Google Chrome */
+.section-position::-webkit-scrollbar {
+  width: 13px;
+  height: 10px;
+}
+
+.section-position::-webkit-scrollbar-thumb {
+  background-color: #005354;
+  border-radius: 2px;
+ 
 }
 
 /* card style */
 .section-position{
   position: absolute;
-  top: 56px !important;
 }
 .section-card {
   background-color: #BED9DD;
   width: 100%;
   overflow: auto;
-  height: 90vh;
+  height: 100vh;
   scrollbar-color: #005354 #BED9DD;
   scrollbar-width: 13px;
   /* scrollbar-width: thin; */
 }
 
-/* Google Chrome */
-::-webkit-scrollbar {
-  width: 13px;
-  height: 10px;
-}
-
-::-webkit-scrollbar-thumb {
-  background-color: #005354;
-  border-radius: 2px;
-}
-
 .card {
   background-color: #DEEBEC;
-  padding: 8px 8px 0 8px;
   max-width: 471px;
   min-height: 427px;
   display: flex;
@@ -101,8 +112,8 @@ header {
 .card-header {
   display: flex;
   align-items: center;
-  gap: 10px;
-  padding-right: 4px;
+  gap: 13px;
+  padding: 17px;
 }
 
 .header-details {
@@ -113,19 +124,23 @@ header {
   color: #B19149;
   font-weight: 600;
   font-size: 14px;
+  Line-height:22.04px;
 }
 
 .card-text {
   font-size: 10px;
   font-weight: 600;
   margin-top: 6px;
+  max-width:322px ;
+  line-height:15.74px;
 }
 
-.card-header {
+.top-card {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-bottom: 8px;
+
 }
 
 .progress {
@@ -143,19 +158,20 @@ header {
 
 .list-group {
   width: 100%;
-  border-bottom: 0.5px solid #BED9DD;
+  padding:0 17px 0 17px;
 }
 
 .list-group span {
-  font-size: 14px;
+  font-size: 12px;
   font-weight: 600;
   border-collapse: collapse;
+  line-height:18.89px ;
 }
 
 .discrip{
-  font-size: 14px;
+  font-size: 12px;
   font-weight: 600;
-  padding: 6px;
+  padding:5px 0 0 29px;
   height: 100%;
 }
 
@@ -172,30 +188,32 @@ header {
 }
 
 .list-group-td {
-  border-bottom: 0.5px solid #BED9DD;
   display: flex;
   align-items: center;
   justify-content: space-between;
   width: 100%;
-  padding: 6px;
+  padding:5px 0 5px 10px;
 }
-
+.td-first{
+  padding:0 0 6px 10px;
+}
 .list-group tr {
   width: 100%;
   display: flex;
+  border-bottom: 0.5px solid #BED9DD;
 }
 
 .border-item {
-  height: 30px;
-  width: 1.5px;
+  height: 28px;
+  width: 0.5px;
   background-color: #BED9DD;
 }
 
 .list-group-td-last {
-
   display: flex;
-  justify-content: space-between;
-  padding: 6px;
+  justify-content:end;
+  padding:5px 0 5px 15px;
+
 }
 .double-height {
   grid-row: span 2;
@@ -215,8 +233,7 @@ header {
   height: 100%;
 }
 .btn-border{
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding: 15px;
   border-top: 0.5px solid #BED9DD;
   display: flex;
   align-items: end;
@@ -256,7 +273,6 @@ header {
   .section-card {
     background-color: #BED9DD;
     position: absolute;
-    top: 56px !important;
     width: 100%;
     overflow: auto;
     height: 100vh;

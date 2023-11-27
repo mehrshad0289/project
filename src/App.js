@@ -56,7 +56,7 @@ function App() {
             <div className=" card-header ">
               <img className='card-img' src={"./img/halloween.png"} alt="" />
               <div className='header-details'>
-                <div className=" card-header">
+                <div className="top-card">
                   <h2 className="card-title">KAYLAY GUNNER</h2>
                   <svg width="3" height="13" viewBox="0 0 3 13" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M3 11.5C3 11.8978 2.84196 12.2794 2.56066 12.5607C2.27936 12.842 1.89782 13 1.5 13C1.10218 13 0.720644 12.842 0.43934 12.5607C0.158035 12.2794 0 11.8978 0 11.5C0 11.1022 0.158035 10.7206 0.43934 10.4393C0.720644 10.158 1.10218 10 1.5 10C1.89782 10 2.27936 10.158 2.56066 10.4393C2.84196 10.7206 3 11.1022 3 11.5ZM3 6.5C3 6.89782 2.84196 7.27936 2.56066 7.56066C2.27936 7.84196 1.89782 8 1.5 8C1.10218 8 0.720644 7.84196 0.43934 7.56066C0.158035 7.27936 0 6.89782 0 6.5C0 6.10218 0.158035 5.72064 0.43934 5.43934C0.720644 5.15804 1.10218 5 1.5 5C1.89782 5 2.27936 5.15804 2.56066 5.43934C2.84196 5.72064 3 6.10218 3 6.5ZM3 1.5C3 1.89782 2.84196 2.27936 2.56066 2.56066C2.27936 2.84196 1.89782 3 1.5 3C1.10218 3 0.720644 2.84196 0.43934 2.56066C0.158035 2.27936 0 1.89782 0 1.5C0 1.10218 0.158035 0.720644 0.43934 0.43934C0.720644 0.158035 1.10218 0 1.5 0C1.89782 0 2.27936 0.158035 2.56066 0.43934C2.84196 0.720644 3 1.10218 3 1.5Z" fill="#005354" />
@@ -70,7 +70,7 @@ function App() {
             </div>
             <table className='list-group'>
               <tr >
-                <td className='list-group-td'>
+                <td className='list-group-td td-first'>
                   <div>
                     <div className=' list-group-titel'>
                       <img className=' card-img-top ' src={"./img/swiss.png"} alt="" />
@@ -80,7 +80,7 @@ function App() {
                   </div>
                   <div className='border-item'></div>
                 </td>
-                <td className='list-group-td'>
+                <td className='list-group-td td-first'>
                   <div>
                     <div className=' list-group-titel'>
                       <h3 className='card-title'>Full-Time</h3>
@@ -89,7 +89,169 @@ function App() {
                   </div>
                   <div className='border-item'></div>
                 </td>
-                <td className='list-group-td'>
+                <td className='list-group-td td-first'>
+                  <div>
+                    <div className=' list-group-titel'>
+                      <h3 className='card-title'>Designer</h3>
+                    </div>
+                    <span>CATEGORY</span>
+                  </div>
+                </td>
+              </tr>
+              <tr >
+                <td className='list-group-td '>
+                  <div>
+                    <div className=' list-group-titel'>
+                      <img className=' card-img-top ' src={"./img/swiss.png"} alt="" />
+                      <h3 className='card-title'>Montenegro</h3>
+                    </div>
+                    <span>CITY</span>
+                  </div>
+                  <div className='border-item'></div>
+                </td>
+                <td className='list-group-td '>
+                  <div>
+                    <div className=' list-group-titel'>
+                      <h3 className='card-title'>Male</h3>
+                    </div>
+                    <span>GENDER</span>
+                  </div>
+                  <div className='border-item'></div>
+                </td>
+                <td className='list-group-td '>
+                  <div>
+                    <div className=' list-group-titel'>
+                      <h3 className='card-title'>24 Months</h3>
+                    </div>
+                    <span>MIN EXPERIENCE</span>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td className='list-group-td '>
+                  <div>
+                    <div className=' list-group-titel'>
+                      <img className=' card-img-top ' src={"./img/swiss.png"} alt="" />
+                      <h3 className='card-title'>Montenegro</h3>
+                    </div>
+                    <span>NATIVE LANGUAGE</span>
+                  </div>
+                  <div className='border-item'></div>
+                </td>
+                <td className='list-group-td '>
+                  <div>
+                    <div className=' list-group-titel'>
+                      <h3 className='card-title'>$ 12.00 Hour</h3>
+                    </div>
+                    <span>MINIMUM SALARY</span>
+                  </div>
+                  <div className='border-item'></div>
+                </td>
+                <td className='list-group-td '>
+                  <div>
+                    <div className=' list-group-titel'>
+                      <h3 className='card-title'>8:00 AM GMT +2</h3>
+                    </div>
+                    <span>STARTING HOURS</span>
+                  </div>
+                </td>
+              </tr>
+              <tr >
+                <td className='list-group-td '>
+                  <div>
+                    <div className=' list-group-titel'>
+                      <h3 className='card-title'>In Person</h3>
+                    </div>
+                    <span>CONTRACT TYPE</span>
+                  </div>
+                  <div className='border-item'></div>
+                </td>
+                <td className='list-group-td '>
+                  <div>
+                    <div className=' list-group-titel'>
+                      <h3 className='card-title'>$ 24.00 Hour</h3>
+                    </div>
+                    <span>MAXIMUM SALARY</span>
+                  </div>
+                  <div className='border-item'></div>
+                </td>
+                <td className='list-group-td '>
+                  <div>
+                    <div className=' list-group-titel'>
+                      <h3 className='card-title'>17:00 PM GMT +2</h3>
+                    </div>
+                    <span>ENDING HOURS</span>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td className='list-group-td-last '>
+                  <div>
+                    <div className=' list-group-titel'>
+                      <img className=' card-img-top ' src={"./img/swiss.png"} alt="" />
+                      <h3 className='card-title'>Montenegro</h3>
+                    </div>
+                    <span>REQUIRED SKILLS</span>
+                  </div>
+                </td>
+                <td className='list-group-td-last '>
+                  <div>
+                    <div className=' list-group-titel'>
+                      <img className=' card-img-top ' src={"./img/swiss.png"} alt="" />
+                      <h3 className='card-title'>Montenegro</h3>
+                    </div>
+                  </div>
+                </td>
+                <td className='list-group-td-last '>
+                  <div>
+                    <div className=' list-group-titel'>
+                      <img className=' card-img-top ' src={"./img/swiss.png"} alt="" />
+                      <h3 className='card-title'>Montenegro</h3>
+                    </div>
+                  </div>
+                </td>
+              </tr>
+            </table>
+            <button className='btn'>KNOW MORE</button>
+          </div>
+          <div className=" card">
+            <div className=" card-header  ">
+              <img className='card-img' src={"./img/halloween.png"} alt="" />
+              <div className='header-details'>
+                <div className=" top-card">
+                  <h2 className="card-title">KAYLAY GUNNER</h2>
+                  <svg width="3" height="13" viewBox="0 0 3 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M3 11.5C3 11.8978 2.84196 12.2794 2.56066 12.5607C2.27936 12.842 1.89782 13 1.5 13C1.10218 13 0.720644 12.842 0.43934 12.5607C0.158035 12.2794 0 11.8978 0 11.5C0 11.1022 0.158035 10.7206 0.43934 10.4393C0.720644 10.158 1.10218 10 1.5 10C1.89782 10 2.27936 10.158 2.56066 10.4393C2.84196 10.7206 3 11.1022 3 11.5ZM3 6.5C3 6.89782 2.84196 7.27936 2.56066 7.56066C2.27936 7.84196 1.89782 8 1.5 8C1.10218 8 0.720644 7.84196 0.43934 7.56066C0.158035 7.27936 0 6.89782 0 6.5C0 6.10218 0.158035 5.72064 0.43934 5.43934C0.720644 5.15804 1.10218 5 1.5 5C1.89782 5 2.27936 5.15804 2.56066 5.43934C2.84196 5.72064 3 6.10218 3 6.5ZM3 1.5C3 1.89782 2.84196 2.27936 2.56066 2.56066C2.27936 2.84196 1.89782 3 1.5 3C1.10218 3 0.720644 2.84196 0.43934 2.56066C0.158035 2.27936 0 1.89782 0 1.5C0 1.10218 0.158035 0.720644 0.43934 0.43934C0.720644 0.158035 1.10218 0 1.5 0C1.89782 0 2.27936 0.158035 2.56066 0.43934C2.84196 0.720644 3 1.10218 3 1.5Z" fill="#005354" />
+                  </svg>
+                </div>
+                <div className="progress">
+                  <div className="progress-bar" style={{ width: "75%" }}></div>
+                </div>
+                <p className="card-text">PROFESSIONAL DESIGNER FOR MODELING AND RENDERING WALOR DISNEY</p>
+              </div>
+            </div>
+            <table className='list-group'>
+              <tr >
+                <td className='list-group-td td-first'>
+                  <div>
+                    <div className=' list-group-titel'>
+                      <img className=' card-img-top ' src={"./img/swiss.png"} alt="" />
+                      <h3 className='card-title'>SwitZerland</h3>
+                    </div>
+                    <span>COUNTRY</span>
+                  </div>
+                  <div className='border-item'></div>
+                </td>
+                <td className='list-group-td td-first'>
+                  <div>
+                    <div className=' list-group-titel'>
+                      <h3 className='card-title'>Full-Time</h3>
+                    </div>
+                    <span>COOPRATION TYPE</span>
+                  </div>
+                  <div className='border-item'></div>
+                </td>
+                <td className='list-group-td td-first'>
                   <div>
                     <div className=' list-group-titel'>
                       <h3 className='card-title'>Designer</h3>
@@ -127,7 +289,7 @@ function App() {
                   </div>
                 </td>
               </tr>
-              <tr>
+              <tr >
                 <td className='list-group-td'>
                   <div>
                     <div className=' list-group-titel'>
@@ -214,11 +376,11 @@ function App() {
             </table>
             <button className='btn'>KNOW MORE</button>
           </div>
-          <div className=" card double-height">
+          <div className=" card">
             <div className=" card-header ">
               <img className='card-img' src={"./img/halloween.png"} alt="" />
               <div className='header-details'>
-                <div className=" card-header">
+                <div className=" top-card">
                   <h2 className="card-title">KAYLAY GUNNER</h2>
                   <svg width="3" height="13" viewBox="0 0 3 13" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M3 11.5C3 11.8978 2.84196 12.2794 2.56066 12.5607C2.27936 12.842 1.89782 13 1.5 13C1.10218 13 0.720644 12.842 0.43934 12.5607C0.158035 12.2794 0 11.8978 0 11.5C0 11.1022 0.158035 10.7206 0.43934 10.4393C0.720644 10.158 1.10218 10 1.5 10C1.89782 10 2.27936 10.158 2.56066 10.4393C2.84196 10.7206 3 11.1022 3 11.5ZM3 6.5C3 6.89782 2.84196 7.27936 2.56066 7.56066C2.27936 7.84196 1.89782 8 1.5 8C1.10218 8 0.720644 7.84196 0.43934 7.56066C0.158035 7.27936 0 6.89782 0 6.5C0 6.10218 0.158035 5.72064 0.43934 5.43934C0.720644 5.15804 1.10218 5 1.5 5C1.89782 5 2.27936 5.15804 2.56066 5.43934C2.84196 5.72064 3 6.10218 3 6.5ZM3 1.5C3 1.89782 2.84196 2.27936 2.56066 2.56066C2.27936 2.84196 1.89782 3 1.5 3C1.10218 3 0.720644 2.84196 0.43934 2.56066C0.158035 2.27936 0 1.89782 0 1.5C0 1.10218 0.158035 0.720644 0.43934 0.43934C0.720644 0.158035 1.10218 0 1.5 0C1.89782 0 2.27936 0.158035 2.56066 0.43934C2.84196 0.720644 3 1.10218 3 1.5Z" fill="#005354" />
@@ -232,7 +394,7 @@ function App() {
             </div>
             <table className='list-group'>
               <tr >
-                <td className='list-group-td'>
+                <td className='list-group-td td-first'>
                   <div>
                     <div className=' list-group-titel'>
                       <img className=' card-img-top ' src={"./img/swiss.png"} alt="" />
@@ -242,7 +404,7 @@ function App() {
                   </div>
                   <div className='border-item'></div>
                 </td>
-                <td className='list-group-td'>
+                <td className='list-group-td td-first'>
                   <div>
                     <div className=' list-group-titel'>
                       <h3 className='card-title'>Full-Time</h3>
@@ -251,7 +413,169 @@ function App() {
                   </div>
                   <div className='border-item'></div>
                 </td>
+                <td className='list-group-td td-first'>
+                  <div>
+                    <div className=' list-group-titel'>
+                      <h3 className='card-title'>Designer</h3>
+                    </div>
+                    <span>CATEGORY</span>
+                  </div>
+                </td>
+              </tr>
+              <tr >
                 <td className='list-group-td'>
+                  <div>
+                    <div className=' list-group-titel'>
+                      <img className=' card-img-top ' src={"./img/swiss.png"} alt="" />
+                      <h3 className='card-title'>Montenegro</h3>
+                    </div>
+                    <span>CITY</span>
+                  </div>
+                  <div className='border-item'></div>
+                </td>
+                <td className='list-group-td'>
+                  <div>
+                    <div className=' list-group-titel'>
+                      <h3 className='card-title'>Male</h3>
+                    </div>
+                    <span>GENDER</span>
+                  </div>
+                  <div className='border-item'></div>
+                </td>
+                <td className='list-group-td'>
+                  <div>
+                    <div className=' list-group-titel'>
+                      <h3 className='card-title'>24 Months</h3>
+                    </div>
+                    <span>MIN EXPERIENCE</span>
+                  </div>
+                </td>
+              </tr>
+              <tr >
+                <td className='list-group-td'>
+                  <div>
+                    <div className=' list-group-titel'>
+                      <img className=' card-img-top ' src={"./img/swiss.png"} alt="" />
+                      <h3 className='card-title'>Montenegro</h3>
+                    </div>
+                    <span> NATIVE LANGUAGE</span>
+                  </div>
+                  <div className='border-item'></div>
+                </td>
+                <td className='list-group-td'>
+                  <div>
+                    <div className=' list-group-titel'>
+                      <h3 className='card-title'>$ 12.00 Hour</h3>
+                    </div>
+                    <span>MINIMUM SALARY</span>
+                  </div>
+                  <div className='border-item'></div>
+                </td>
+                <td className='list-group-td'>
+                  <div>
+                    <div className=' list-group-titel'>
+                      <h3 className='card-title'>8:00 AM GMT +2</h3>
+                    </div>
+                    <span>STARTING HOURS</span>
+                  </div>
+                </td>
+              </tr>
+              <tr >
+                <td className='list-group-td'>
+                  <div>
+                    <div className=' list-group-titel'>
+                      <h3 className='card-title'>In Person</h3>
+                    </div>
+                    <span>CONTRACT TYPE</span>
+                  </div>
+                  <div className='border-item'></div>
+                </td>
+                <td className='list-group-td'>
+                  <div>
+                    <div className=' list-group-titel'>
+                      <h3 className='card-title'>$ 24.00 Hour</h3>
+                    </div>
+                    <span>MAXIMUM SALARY</span>
+                  </div>
+                  <div className='border-item'></div>
+                </td>
+                <td className='list-group-td'>
+                  <div>
+                    <div className=' list-group-titel'>
+                      <h3 className='card-title'>17:00 PM GMT +2</h3>
+                    </div>
+                    <span>ENDING HOURS</span>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td className='list-group-td-last'>
+                  <div>
+                    <div className=' list-group-titel'>
+                      <img className=' card-img-top ' src={"./img/swiss.png"} alt="" />
+                      <h3 className='card-title'>Montenegro</h3>
+                    </div>
+                    <span>REQUIRED SKILLS</span>
+                  </div>
+                </td>
+                <td className='list-group-td-last'>
+                  <div>
+                    <div className=' list-group-titel'>
+                      <img className=' card-img-top ' src={"./img/swiss.png"} alt="" />
+                      <h3 className='card-title'>Montenegro</h3>
+                    </div>
+                  </div>
+                </td>
+                <td className='list-group-td-last'>
+                  <div>
+                    <div className=' list-group-titel'>
+                      <img className=' card-img-top ' src={"./img/swiss.png"} alt="" />
+                      <h3 className='card-title'>Montenegro</h3>
+                    </div>
+                  </div>
+                </td>
+              </tr>
+            </table>
+            <button className='btn'>KNOW MORE</button>
+          </div>
+          <div className=" card double-height">
+            <div className=" card-header ">
+              <img className='card-img' src={"./img/halloween.png"} alt="" />
+              <div className='header-details'>
+                <div className=" top-card">
+                  <h2 className="card-title">KAYLAY GUNNER</h2>
+                  <svg width="3" height="13" viewBox="0 0 3 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M3 11.5C3 11.8978 2.84196 12.2794 2.56066 12.5607C2.27936 12.842 1.89782 13 1.5 13C1.10218 13 0.720644 12.842 0.43934 12.5607C0.158035 12.2794 0 11.8978 0 11.5C0 11.1022 0.158035 10.7206 0.43934 10.4393C0.720644 10.158 1.10218 10 1.5 10C1.89782 10 2.27936 10.158 2.56066 10.4393C2.84196 10.7206 3 11.1022 3 11.5ZM3 6.5C3 6.89782 2.84196 7.27936 2.56066 7.56066C2.27936 7.84196 1.89782 8 1.5 8C1.10218 8 0.720644 7.84196 0.43934 7.56066C0.158035 7.27936 0 6.89782 0 6.5C0 6.10218 0.158035 5.72064 0.43934 5.43934C0.720644 5.15804 1.10218 5 1.5 5C1.89782 5 2.27936 5.15804 2.56066 5.43934C2.84196 5.72064 3 6.10218 3 6.5ZM3 1.5C3 1.89782 2.84196 2.27936 2.56066 2.56066C2.27936 2.84196 1.89782 3 1.5 3C1.10218 3 0.720644 2.84196 0.43934 2.56066C0.158035 2.27936 0 1.89782 0 1.5C0 1.10218 0.158035 0.720644 0.43934 0.43934C0.720644 0.158035 1.10218 0 1.5 0C1.89782 0 2.27936 0.158035 2.56066 0.43934C2.84196 0.720644 3 1.10218 3 1.5Z" fill="#005354" />
+                  </svg>
+                </div>
+                <div className="progress">
+                  <div className="progress-bar" style={{ width: "75%" }}></div>
+                </div>
+                <p className="card-text">PROFESSIONAL DESIGNER FOR MODELING AND RENDERING WALOR DISNEY</p>
+              </div>
+            </div>
+            <table className='list-group'>
+              <tr >
+                <td className='list-group-td td-first'>
+                  <div>
+                    <div className=' list-group-titel'>
+                      <img className=' card-img-top ' src={"./img/swiss.png"} alt="" />
+                      <h3 className='card-title'>SwitZerland</h3>
+                    </div>
+                    <span>COUNTRY</span>
+                  </div>
+                  <div className='border-item'></div>
+                </td>
+                <td className='list-group-td td-first'>
+                  <div>
+                    <div className=' list-group-titel'>
+                      <h3 className='card-title'>Full-Time</h3>
+                    </div>
+                    <span>COOPRATION TYPE</span>
+                  </div>
+                  <div className='border-item'></div>
+                </td>
+                <td className='list-group-td td-first'>
                   <div>
                     <div className=' list-group-titel'>
                       <h3 className='card-title'>Designer</h3>
@@ -378,10 +702,10 @@ function App() {
             <div className='btn-border'> <button className='btn '>SEND REQUEST</button></div>
           </div>
           <div className=" card">
-            <div className=" card-header  ">
+            <div className=" card-header ">
               <img className='card-img' src={"./img/halloween.png"} alt="" />
               <div className='header-details'>
-                <div className=" card-header">
+                <div className=" top-card">
                   <h2 className="card-title">KAYLAY GUNNER</h2>
                   <svg width="3" height="13" viewBox="0 0 3 13" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M3 11.5C3 11.8978 2.84196 12.2794 2.56066 12.5607C2.27936 12.842 1.89782 13 1.5 13C1.10218 13 0.720644 12.842 0.43934 12.5607C0.158035 12.2794 0 11.8978 0 11.5C0 11.1022 0.158035 10.7206 0.43934 10.4393C0.720644 10.158 1.10218 10 1.5 10C1.89782 10 2.27936 10.158 2.56066 10.4393C2.84196 10.7206 3 11.1022 3 11.5ZM3 6.5C3 6.89782 2.84196 7.27936 2.56066 7.56066C2.27936 7.84196 1.89782 8 1.5 8C1.10218 8 0.720644 7.84196 0.43934 7.56066C0.158035 7.27936 0 6.89782 0 6.5C0 6.10218 0.158035 5.72064 0.43934 5.43934C0.720644 5.15804 1.10218 5 1.5 5C1.89782 5 2.27936 5.15804 2.56066 5.43934C2.84196 5.72064 3 6.10218 3 6.5ZM3 1.5C3 1.89782 2.84196 2.27936 2.56066 2.56066C2.27936 2.84196 1.89782 3 1.5 3C1.10218 3 0.720644 2.84196 0.43934 2.56066C0.158035 2.27936 0 1.89782 0 1.5C0 1.10218 0.158035 0.720644 0.43934 0.43934C0.720644 0.158035 1.10218 0 1.5 0C1.89782 0 2.27936 0.158035 2.56066 0.43934C2.84196 0.720644 3 1.10218 3 1.5Z" fill="#005354" />
@@ -395,7 +719,7 @@ function App() {
             </div>
             <table className='list-group'>
               <tr >
-                <td className='list-group-td'>
+                <td className='list-group-td td-first'>
                   <div>
                     <div className=' list-group-titel'>
                       <img className=' card-img-top ' src={"./img/swiss.png"} alt="" />
@@ -405,7 +729,7 @@ function App() {
                   </div>
                   <div className='border-item'></div>
                 </td>
-                <td className='list-group-td'>
+                <td className='list-group-td td-first'>
                   <div>
                     <div className=' list-group-titel'>
                       <h3 className='card-title'>Full-Time</h3>
@@ -414,7 +738,7 @@ function App() {
                   </div>
                   <div className='border-item'></div>
                 </td>
-                <td className='list-group-td'>
+                <td className='list-group-td td-first'>
                   <div>
                     <div className=' list-group-titel'>
                       <h3 className='card-title'>Designer</h3>
@@ -543,7 +867,7 @@ function App() {
             <div className=" card-header ">
               <img className='card-img' src={"./img/halloween.png"} alt="" />
               <div className='header-details'>
-                <div className=" card-header">
+                <div className=" top-card">
                   <h2 className="card-title">KAYLAY GUNNER</h2>
                   <svg width="3" height="13" viewBox="0 0 3 13" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M3 11.5C3 11.8978 2.84196 12.2794 2.56066 12.5607C2.27936 12.842 1.89782 13 1.5 13C1.10218 13 0.720644 12.842 0.43934 12.5607C0.158035 12.2794 0 11.8978 0 11.5C0 11.1022 0.158035 10.7206 0.43934 10.4393C0.720644 10.158 1.10218 10 1.5 10C1.89782 10 2.27936 10.158 2.56066 10.4393C2.84196 10.7206 3 11.1022 3 11.5ZM3 6.5C3 6.89782 2.84196 7.27936 2.56066 7.56066C2.27936 7.84196 1.89782 8 1.5 8C1.10218 8 0.720644 7.84196 0.43934 7.56066C0.158035 7.27936 0 6.89782 0 6.5C0 6.10218 0.158035 5.72064 0.43934 5.43934C0.720644 5.15804 1.10218 5 1.5 5C1.89782 5 2.27936 5.15804 2.56066 5.43934C2.84196 5.72064 3 6.10218 3 6.5ZM3 1.5C3 1.89782 2.84196 2.27936 2.56066 2.56066C2.27936 2.84196 1.89782 3 1.5 3C1.10218 3 0.720644 2.84196 0.43934 2.56066C0.158035 2.27936 0 1.89782 0 1.5C0 1.10218 0.158035 0.720644 0.43934 0.43934C0.720644 0.158035 1.10218 0 1.5 0C1.89782 0 2.27936 0.158035 2.56066 0.43934C2.84196 0.720644 3 1.10218 3 1.5Z" fill="#005354" />
@@ -557,7 +881,7 @@ function App() {
             </div>
             <table className='list-group'>
               <tr >
-                <td className='list-group-td'>
+                <td className='list-group-td td-first'>
                   <div>
                     <div className=' list-group-titel'>
                       <img className=' card-img-top ' src={"./img/swiss.png"} alt="" />
@@ -567,7 +891,7 @@ function App() {
                   </div>
                   <div className='border-item'></div>
                 </td>
-                <td className='list-group-td'>
+                <td className='list-group-td td-first'>
                   <div>
                     <div className=' list-group-titel'>
                       <h3 className='card-title'>Full-Time</h3>
@@ -576,331 +900,7 @@ function App() {
                   </div>
                   <div className='border-item'></div>
                 </td>
-                <td className='list-group-td'>
-                  <div>
-                    <div className=' list-group-titel'>
-                      <h3 className='card-title'>Designer</h3>
-                    </div>
-                    <span>CATEGORY</span>
-                  </div>
-                </td>
-              </tr>
-              <tr >
-                <td className='list-group-td'>
-                  <div>
-                    <div className=' list-group-titel'>
-                      <img className=' card-img-top ' src={"./img/swiss.png"} alt="" />
-                      <h3 className='card-title'>Montenegro</h3>
-                    </div>
-                    <span>CITY</span>
-                  </div>
-                  <div className='border-item'></div>
-                </td>
-                <td className='list-group-td'>
-                  <div>
-                    <div className=' list-group-titel'>
-                      <h3 className='card-title'>Male</h3>
-                    </div>
-                    <span>GENDER</span>
-                  </div>
-                  <div className='border-item'></div>
-                </td>
-                <td className='list-group-td'>
-                  <div>
-                    <div className=' list-group-titel'>
-                      <h3 className='card-title'>24 Months</h3>
-                    </div>
-                    <span>MIN EXPERIENCE</span>
-                  </div>
-                </td>
-              </tr>
-              <tr >
-                <td className='list-group-td'>
-                  <div>
-                    <div className=' list-group-titel'>
-                      <img className=' card-img-top ' src={"./img/swiss.png"} alt="" />
-                      <h3 className='card-title'>Montenegro</h3>
-                    </div>
-                    <span> NATIVE LANGUAGE</span>
-                  </div>
-                  <div className='border-item'></div>
-                </td>
-                <td className='list-group-td'>
-                  <div>
-                    <div className=' list-group-titel'>
-                      <h3 className='card-title'>$ 12.00 Hour</h3>
-                    </div>
-                    <span>MINIMUM SALARY</span>
-                  </div>
-                  <div className='border-item'></div>
-                </td>
-                <td className='list-group-td'>
-                  <div>
-                    <div className=' list-group-titel'>
-                      <h3 className='card-title'>8:00 AM GMT +2</h3>
-                    </div>
-                    <span>STARTING HOURS</span>
-                  </div>
-                </td>
-              </tr>
-              <tr >
-                <td className='list-group-td'>
-                  <div>
-                    <div className=' list-group-titel'>
-                      <h3 className='card-title'>In Person</h3>
-                    </div>
-                    <span>CONTRACT TYPE</span>
-                  </div>
-                  <div className='border-item'></div>
-                </td>
-                <td className='list-group-td'>
-                  <div>
-                    <div className=' list-group-titel'>
-                      <h3 className='card-title'>$ 24.00 Hour</h3>
-                    </div>
-                    <span>MAXIMUM SALARY</span>
-                  </div>
-                  <div className='border-item'></div>
-                </td>
-                <td className='list-group-td'>
-                  <div>
-                    <div className=' list-group-titel'>
-                      <h3 className='card-title'>17:00 PM GMT +2</h3>
-                    </div>
-                    <span>ENDING HOURS</span>
-                  </div>
-                </td>
-              </tr>
-              <tr>
-                <td className='list-group-td-last'>
-                  <div>
-                    <div className=' list-group-titel'>
-                      <img className=' card-img-top ' src={"./img/swiss.png"} alt="" />
-                      <h3 className='card-title'>Montenegro</h3>
-                    </div>
-                    <span>REQUIRED SKILLS</span>
-                  </div>
-                </td>
-                <td className='list-group-td-last'>
-                  <div>
-                    <div className=' list-group-titel'>
-                      <img className=' card-img-top ' src={"./img/swiss.png"} alt="" />
-                      <h3 className='card-title'>Montenegro</h3>
-                    </div>
-                  </div>
-                </td>
-                <td className='list-group-td-last'>
-                  <div>
-                    <div className=' list-group-titel'>
-                      <img className=' card-img-top ' src={"./img/swiss.png"} alt="" />
-                      <h3 className='card-title'>Montenegro</h3>
-                    </div>
-                  </div>
-                </td>
-              </tr>
-            </table>
-            <button className='btn'>KNOW MORE</button>
-          </div>
-          <div className=" card">
-            <div className=" card-header ">
-              <img className='card-img' src={"./img/halloween.png"} alt="" />
-              <div className='header-details'>
-                <div className=" card-header">
-                  <h2 className="card-title">KAYLAY GUNNER</h2>
-                  <svg width="3" height="13" viewBox="0 0 3 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M3 11.5C3 11.8978 2.84196 12.2794 2.56066 12.5607C2.27936 12.842 1.89782 13 1.5 13C1.10218 13 0.720644 12.842 0.43934 12.5607C0.158035 12.2794 0 11.8978 0 11.5C0 11.1022 0.158035 10.7206 0.43934 10.4393C0.720644 10.158 1.10218 10 1.5 10C1.89782 10 2.27936 10.158 2.56066 10.4393C2.84196 10.7206 3 11.1022 3 11.5ZM3 6.5C3 6.89782 2.84196 7.27936 2.56066 7.56066C2.27936 7.84196 1.89782 8 1.5 8C1.10218 8 0.720644 7.84196 0.43934 7.56066C0.158035 7.27936 0 6.89782 0 6.5C0 6.10218 0.158035 5.72064 0.43934 5.43934C0.720644 5.15804 1.10218 5 1.5 5C1.89782 5 2.27936 5.15804 2.56066 5.43934C2.84196 5.72064 3 6.10218 3 6.5ZM3 1.5C3 1.89782 2.84196 2.27936 2.56066 2.56066C2.27936 2.84196 1.89782 3 1.5 3C1.10218 3 0.720644 2.84196 0.43934 2.56066C0.158035 2.27936 0 1.89782 0 1.5C0 1.10218 0.158035 0.720644 0.43934 0.43934C0.720644 0.158035 1.10218 0 1.5 0C1.89782 0 2.27936 0.158035 2.56066 0.43934C2.84196 0.720644 3 1.10218 3 1.5Z" fill="#005354" />
-                  </svg>
-                </div>
-                <div className="progress">
-                  <div className="progress-bar" style={{ width: "75%" }}></div>
-                </div>
-                <p className="card-text">PROFESSIONAL DESIGNER FOR MODELING AND RENDERING WALOR DISNEY</p>
-              </div>
-            </div>
-            <table className='list-group'>
-              <tr >
-                <td className='list-group-td'>
-                  <div>
-                    <div className=' list-group-titel'>
-                      <img className=' card-img-top ' src={"./img/swiss.png"} alt="" />
-                      <h3 className='card-title'>SwitZerland</h3>
-                    </div>
-                    <span>COUNTRY</span>
-                  </div>
-                  <div className='border-item'></div>
-                </td>
-                <td className='list-group-td'>
-                  <div>
-                    <div className=' list-group-titel'>
-                      <h3 className='card-title'>Full-Time</h3>
-                    </div>
-                    <span>COOPRATION TYPE</span>
-                  </div>
-                  <div className='border-item'></div>
-                </td>
-                <td className='list-group-td'>
-                  <div>
-                    <div className=' list-group-titel'>
-                      <h3 className='card-title'>Designer</h3>
-                    </div>
-                    <span>CATEGORY</span>
-                  </div>
-                </td>
-              </tr>
-              <tr >
-                <td className='list-group-td'>
-                  <div>
-                    <div className=' list-group-titel'>
-                      <img className=' card-img-top ' src={"./img/swiss.png"} alt="" />
-                      <h3 className='card-title'>Montenegro</h3>
-                    </div>
-                    <span>CITY</span>
-                  </div>
-                  <div className='border-item'></div>
-                </td>
-                <td className='list-group-td'>
-                  <div>
-                    <div className=' list-group-titel'>
-                      <h3 className='card-title'>Male</h3>
-                    </div>
-                    <span>GENDER</span>
-                  </div>
-                  <div className='border-item'></div>
-                </td>
-                <td className='list-group-td'>
-                  <div>
-                    <div className=' list-group-titel'>
-                      <h3 className='card-title'>24 Months</h3>
-                    </div>
-                    <span>MIN EXPERIENCE</span>
-                  </div>
-                </td>
-              </tr>
-              <tr >
-                <td className='list-group-td'>
-                  <div>
-                    <div className=' list-group-titel'>
-                      <img className=' card-img-top ' src={"./img/swiss.png"} alt="" />
-                      <h3 className='card-title'>Montenegro</h3>
-                    </div>
-                    <span>NATIVE LANGUAGE</span>
-                  </div>
-                  <div className='border-item'></div>
-                </td>
-                <td className='list-group-td'>
-                  <div>
-                    <div className=' list-group-titel'>
-                      <h3 className='card-title'>$ 12.00 Hour</h3>
-                    </div>
-                    <span>MINIMUM SALARY</span>
-                  </div>
-                  <div className='border-item'></div>
-                </td>
-                <td className='list-group-td'>
-                  <div>
-                    <div className=' list-group-titel'>
-                      <h3 className='card-title'>8:00 AM GMT +2</h3>
-                    </div>
-                    <span>STARTING HOURS</span>
-                  </div>
-                </td>
-              </tr>
-              <tr >
-                <td className='list-group-td'>
-                  <div>
-                    <div className=' list-group-titel'>
-                      <h3 className='card-title'>In Person</h3>
-                    </div>
-                    <span>CONTRACT TYPE</span>
-                  </div>
-                  <div className='border-item'></div>
-                </td>
-                <td className='list-group-td'>
-                  <div>
-                    <div className=' list-group-titel'>
-                      <h3 className='card-title'>$ 24.00 Hour</h3>
-                    </div>
-                    <span>MAXIMUM SALARY</span>
-                  </div>
-                  <div className='border-item'></div>
-                </td>
-                <td className='list-group-td'>
-                  <div>
-                    <div className=' list-group-titel'>
-                      <h3 className='card-title'>17:00 PM GMT +2</h3>
-                    </div>
-                    <span>ENDING HOURS</span>
-                  </div>
-                </td>
-              </tr>
-              <tr>
-                <td className='list-group-td-last'>
-                  <div>
-                    <div className=' list-group-titel'>
-                      <img className=' card-img-top ' src={"./img/swiss.png"} alt="" />
-                      <h3 className='card-title'>Montenegro</h3>
-                    </div>
-                    <span>REQUIRED SKILLS</span>
-                  </div>
-                </td>
-                <td className='list-group-td-last'>
-                  <div>
-                    <div className=' list-group-titel'>
-                      <img className=' card-img-top ' src={"./img/swiss.png"} alt="" />
-                      <h3 className='card-title'>Montenegro</h3>
-                    </div>
-                  </div>
-                </td>
-                <td className='list-group-td-last'>
-                  <div>
-                    <div className=' list-group-titel'>
-                      <img className=' card-img-top ' src={"./img/swiss.png"} alt="" />
-                      <h3 className='card-title'>Montenegro</h3>
-                    </div>
-                  </div>
-                </td>
-              </tr>
-            </table>
-            <button className='btn'>KNOW MORE</button>
-          </div>
-          <div className=" card">
-            <div className=" card-header ">
-              <img className='card-img' src={"./img/halloween.png"} alt="" />
-              <div className='header-details'>
-                <div className=" card-header">
-                  <h2 className="card-title">KAYLAY GUNNER</h2>
-                  <svg width="3" height="13" viewBox="0 0 3 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M3 11.5C3 11.8978 2.84196 12.2794 2.56066 12.5607C2.27936 12.842 1.89782 13 1.5 13C1.10218 13 0.720644 12.842 0.43934 12.5607C0.158035 12.2794 0 11.8978 0 11.5C0 11.1022 0.158035 10.7206 0.43934 10.4393C0.720644 10.158 1.10218 10 1.5 10C1.89782 10 2.27936 10.158 2.56066 10.4393C2.84196 10.7206 3 11.1022 3 11.5ZM3 6.5C3 6.89782 2.84196 7.27936 2.56066 7.56066C2.27936 7.84196 1.89782 8 1.5 8C1.10218 8 0.720644 7.84196 0.43934 7.56066C0.158035 7.27936 0 6.89782 0 6.5C0 6.10218 0.158035 5.72064 0.43934 5.43934C0.720644 5.15804 1.10218 5 1.5 5C1.89782 5 2.27936 5.15804 2.56066 5.43934C2.84196 5.72064 3 6.10218 3 6.5ZM3 1.5C3 1.89782 2.84196 2.27936 2.56066 2.56066C2.27936 2.84196 1.89782 3 1.5 3C1.10218 3 0.720644 2.84196 0.43934 2.56066C0.158035 2.27936 0 1.89782 0 1.5C0 1.10218 0.158035 0.720644 0.43934 0.43934C0.720644 0.158035 1.10218 0 1.5 0C1.89782 0 2.27936 0.158035 2.56066 0.43934C2.84196 0.720644 3 1.10218 3 1.5Z" fill="#005354" />
-                  </svg>
-                </div>
-                <div className="progress">
-                  <div className="progress-bar" style={{ width: "75%" }}></div>
-                </div>
-                <p className="card-text">PROFESSIONAL DESIGNER FOR MODELING AND RENDERING WALOR DISNEY</p>
-              </div>
-            </div>
-            <table className='list-group'>
-              <tr >
-                <td className='list-group-td'>
-                  <div>
-                    <div className=' list-group-titel'>
-                      <img className=' card-img-top ' src={"./img/swiss.png"} alt="" />
-                      <h3 className='card-title'>SwitZerland</h3>
-                    </div>
-                    <span>COUNTRY</span>
-                  </div>
-                  <div className='border-item'></div>
-                </td>
-                <td className='list-group-td'>
-                  <div>
-                    <div className=' list-group-titel'>
-                      <h3 className='card-title'>Full-Time</h3>
-                    </div>
-                    <span>COOPRATION TYPE</span>
-                  </div>
-                  <div className='border-item'></div>
-                </td>
-                <td className='list-group-td'>
+                <td className='list-group-td td-first'>
                   <div>
                     <div className=' list-group-titel'>
                       <h3 className='card-title'>Designer</h3>
@@ -1029,7 +1029,7 @@ function App() {
             <div className=" card-header  ">
               <img className='card-img' src={"./img/halloween.png"} alt="" />
               <div className='header-details'>
-                <div className=" card-header">
+                <div className=" top-card">
                   <h2 className="card-title">KAYLAY GUNNER</h2>
                   <svg width="3" height="13" viewBox="0 0 3 13" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M3 11.5C3 11.8978 2.84196 12.2794 2.56066 12.5607C2.27936 12.842 1.89782 13 1.5 13C1.10218 13 0.720644 12.842 0.43934 12.5607C0.158035 12.2794 0 11.8978 0 11.5C0 11.1022 0.158035 10.7206 0.43934 10.4393C0.720644 10.158 1.10218 10 1.5 10C1.89782 10 2.27936 10.158 2.56066 10.4393C2.84196 10.7206 3 11.1022 3 11.5ZM3 6.5C3 6.89782 2.84196 7.27936 2.56066 7.56066C2.27936 7.84196 1.89782 8 1.5 8C1.10218 8 0.720644 7.84196 0.43934 7.56066C0.158035 7.27936 0 6.89782 0 6.5C0 6.10218 0.158035 5.72064 0.43934 5.43934C0.720644 5.15804 1.10218 5 1.5 5C1.89782 5 2.27936 5.15804 2.56066 5.43934C2.84196 5.72064 3 6.10218 3 6.5ZM3 1.5C3 1.89782 2.84196 2.27936 2.56066 2.56066C2.27936 2.84196 1.89782 3 1.5 3C1.10218 3 0.720644 2.84196 0.43934 2.56066C0.158035 2.27936 0 1.89782 0 1.5C0 1.10218 0.158035 0.720644 0.43934 0.43934C0.720644 0.158035 1.10218 0 1.5 0C1.89782 0 2.27936 0.158035 2.56066 0.43934C2.84196 0.720644 3 1.10218 3 1.5Z" fill="#005354" />
@@ -1043,7 +1043,7 @@ function App() {
             </div>
             <table className='list-group'>
               <tr >
-                <td className='list-group-td'>
+                <td className='list-group-td td-first'>
                   <div>
                     <div className=' list-group-titel'>
                       <img className=' card-img-top ' src={"./img/swiss.png"} alt="" />
@@ -1053,7 +1053,7 @@ function App() {
                   </div>
                   <div className='border-item'></div>
                 </td>
-                <td className='list-group-td'>
+                <td className='list-group-td td-first'>
                   <div>
                     <div className=' list-group-titel'>
                       <h3 className='card-title'>Full-Time</h3>
@@ -1062,7 +1062,7 @@ function App() {
                   </div>
                   <div className='border-item'></div>
                 </td>
-                <td className='list-group-td'>
+                <td className='list-group-td td-first'>
                   <div>
                     <div className=' list-group-titel'>
                       <h3 className='card-title'>Designer</h3>
@@ -1191,7 +1191,7 @@ function App() {
             <div className=" card-header ">
               <img className='card-img' src={"./img/halloween.png"} alt="" />
               <div className='header-details'>
-                <div className=" card-header">
+                <div className=" top-card">
                   <h2 className="card-title">KAYLAY GUNNER</h2>
                   <svg width="3" height="13" viewBox="0 0 3 13" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M3 11.5C3 11.8978 2.84196 12.2794 2.56066 12.5607C2.27936 12.842 1.89782 13 1.5 13C1.10218 13 0.720644 12.842 0.43934 12.5607C0.158035 12.2794 0 11.8978 0 11.5C0 11.1022 0.158035 10.7206 0.43934 10.4393C0.720644 10.158 1.10218 10 1.5 10C1.89782 10 2.27936 10.158 2.56066 10.4393C2.84196 10.7206 3 11.1022 3 11.5ZM3 6.5C3 6.89782 2.84196 7.27936 2.56066 7.56066C2.27936 7.84196 1.89782 8 1.5 8C1.10218 8 0.720644 7.84196 0.43934 7.56066C0.158035 7.27936 0 6.89782 0 6.5C0 6.10218 0.158035 5.72064 0.43934 5.43934C0.720644 5.15804 1.10218 5 1.5 5C1.89782 5 2.27936 5.15804 2.56066 5.43934C2.84196 5.72064 3 6.10218 3 6.5ZM3 1.5C3 1.89782 2.84196 2.27936 2.56066 2.56066C2.27936 2.84196 1.89782 3 1.5 3C1.10218 3 0.720644 2.84196 0.43934 2.56066C0.158035 2.27936 0 1.89782 0 1.5C0 1.10218 0.158035 0.720644 0.43934 0.43934C0.720644 0.158035 1.10218 0 1.5 0C1.89782 0 2.27936 0.158035 2.56066 0.43934C2.84196 0.720644 3 1.10218 3 1.5Z" fill="#005354" />
@@ -1205,7 +1205,7 @@ function App() {
             </div>
             <table className='list-group'>
               <tr >
-                <td className='list-group-td'>
+                <td className='list-group-td td-first'>
                   <div>
                     <div className=' list-group-titel'>
                       <img className=' card-img-top ' src={"./img/swiss.png"} alt="" />
@@ -1215,7 +1215,7 @@ function App() {
                   </div>
                   <div className='border-item'></div>
                 </td>
-                <td className='list-group-td'>
+                <td className='list-group-td td-first'>
                   <div>
                     <div className=' list-group-titel'>
                       <h3 className='card-title'>Full-Time</h3>
@@ -1224,7 +1224,7 @@ function App() {
                   </div>
                   <div className='border-item'></div>
                 </td>
-                <td className='list-group-td'>
+                <td className='list-group-td td-first'>
                   <div>
                     <div className=' list-group-titel'>
                       <h3 className='card-title'>Designer</h3>
